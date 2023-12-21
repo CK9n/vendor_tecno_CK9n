@@ -1858,9 +1858,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword11/nnnn/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword11/nnnn/supplement/b \
     vendor/tecno/CK9n/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword11/tran_keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword11/tran_keyphrase.xml \
     vendor/tecno/CK9n/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
-    vendor/tecno/CK9n/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/tecno/CK9n/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
-    vendor/tecno/CK9n/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/tecno/CK9n/proprietary/vendor/etc/x695FreeFiredModelLabel.txt:$(TARGET_COPY_OUT_VENDOR)/etc/x695FreeFiredModelLabel.txt \
     vendor/tecno/CK9n/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
     vendor/tecno/CK9n/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
