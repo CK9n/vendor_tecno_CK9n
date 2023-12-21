@@ -3843,31 +3843,4 @@ PRODUCT_PACKAGES += \
     InProcessTetheringResOverlay \
     NetworkStackInProcessResOverlay \
     NetworkStackResOverlay \
-    TetheringResOverlay \
-    android.hardware.biometrics.fingerprint@2.1-service-mediatek \
-    android.hardware.boot@1.2 \
-    android.hardware.cas@1.2-service-lazy \
-    android.hardware.health@2.1 \
-    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
-    android.hardware.usb@1.2-service-mediatekv2 \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi.supplicant \
-    android.hardware.wifi@1.0-service \
-    gnss-default \
-    gnss@2.1-service \
-    lbs_hidl_service@1.0 \
-    lights-mtk-default \
-    manifest \
-    manifest_android.hardware.drm@1.4-service.clearkey \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_face_default \
-    manifest_hwcomposer \
-    manifest_media_c2_V1_1_default \
-    manifest_storage \
-    manifest_tneengine \
-    power-default \
-    tranradionet-default \
-    vendor.mediatek.hardware.paytrigger@1.0-service \
-    vendor.mediatek.hardware.tranHwInfo@1.0 \
-    vendor.transsion.hardware.trancam.trancamserver@1.0 \
-    vibrator-mtk-default
+    TetheringResOverlay
