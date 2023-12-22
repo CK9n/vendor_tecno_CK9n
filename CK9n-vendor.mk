@@ -6,42 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/tecno/CK9n
 
 PRODUCT_COPY_FILES += \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mms@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mms@1.1.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mms@1.2.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mms@1.3.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower-V1-ndk.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.2.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.pq@2.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.pq@2.1.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.pq@2.2.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.trustonic.tee@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.trustonic.tee@1.1.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.composer_ext@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mms@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mms@1.1.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mms@1.2.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mms@1.3.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.1.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.2.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.1.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.2.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.trustonic.tee@1.0.so \
-    vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.trustonic.tee@1.1.so \
     vendor/tecno/CK9n/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/tecno/CK9n/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/tecno/CK9n/proprietary/vendor/app/mcRegistry/031c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/031c0000000000000000000000000000.drbin \
