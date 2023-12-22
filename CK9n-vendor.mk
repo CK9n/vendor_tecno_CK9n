@@ -1654,7 +1654,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6893/libGLES_mali.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/gc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_tuning.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6893.so \
@@ -2367,7 +2366,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/gc02m1_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_IdxMgr.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/gc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_tuning.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6893.so \
