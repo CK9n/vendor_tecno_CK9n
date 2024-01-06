@@ -1671,7 +1671,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/face.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/face.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.trustonic.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libMcGatekeeper.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
@@ -1680,7 +1679,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/mt6893/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6893/vulkan.mali.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/paytrigger.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/paytrigger.trustonic.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal_hal.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
@@ -1693,7 +1691,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/lib3a.af.assist.models.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.assist.models.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/lib3a.aishutter.models.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.aishutter.models.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
@@ -2109,7 +2106,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mapi.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mdmi.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioclient_aidl_conversion.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilterc.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine_vendor.so \
@@ -2117,7 +2113,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofmtconv.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofoundation.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioloudc.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
@@ -2218,7 +2213,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkspparser.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnbaio_mono.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuron_graph_delegate.mtk.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
@@ -2382,7 +2376,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/face.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/face.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/haptic_core.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/haptic_core.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/hwcomposer.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.trustonic.so \
@@ -2393,7 +2386,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/mt6893/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6893/vulkan.mali.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/paytrigger.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/paytrigger.trustonic.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/sensors.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal_hal.so \
@@ -2409,7 +2401,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
@@ -2915,7 +2906,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mapi.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mdmi.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient_aidl_conversion.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilter_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilterc.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocomponentengine_vendor.so \
@@ -2923,7 +2913,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocustparam_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiodcrflt_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofmtconv.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofoundation.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioloudc.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
@@ -3191,7 +3180,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtksysutils.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_graph_delegate.mtk.so \
