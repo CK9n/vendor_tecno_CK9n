@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils_v2.mtk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp.mtk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libapuwarexrp_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp_v2.mtk.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
@@ -51,6 +52,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_wrapper.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtkperf_client.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libshowlogo.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsignal.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsource.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsysenv_system.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
