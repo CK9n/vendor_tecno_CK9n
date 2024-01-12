@@ -2970,6 +2970,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcalculatesharpness.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalculatesharpness.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcam.afhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.afhal.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcam.chdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.chdr.so \
