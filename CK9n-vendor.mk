@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_wrapper.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtkperf_client.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libshowlogo.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsource.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsysenv_system.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_capenc.so \
@@ -2407,6 +2408,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/gc02m1_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_IdxMgr.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/gc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_tuning.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6893.so \
