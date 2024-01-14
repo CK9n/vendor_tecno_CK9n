@@ -135,6 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/bin/get_ufs_error:$(TARGET_COPY_OUT_VENDOR)/bin/get_ufs_error \
     vendor/tecno/CK9n/proprietary/vendor/bin/getgameserver:$(TARGET_COPY_OUT_VENDOR)/bin/getgameserver \
     vendor/tecno/CK9n/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
+    vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.clearkey \
@@ -990,6 +991,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/tecno/CK9n/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/tecno/CK9n/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
