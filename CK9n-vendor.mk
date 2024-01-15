@@ -2138,7 +2138,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libappgamepq.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
@@ -2945,7 +2944,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaibc_tuning_p3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p3.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaidepth_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidepth_tuning.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libainrcore.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libamipengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libamipengine.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libanc_dc_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_dc_base.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libanc_fullhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_fullhdr.so \
