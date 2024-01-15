@@ -934,6 +934,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/tecno/CK9n/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/tecno/CK9n/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/tecno/CK9n/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
+    vendor/tecno/CK9n/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
     vendor/tecno/CK9n/proprietary/vendor/etc/cam3atms_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cam3atms_profiles.xml \
     vendor/tecno/CK9n/proprietary/vendor/etc/cloudengine/ReadMe.txt:$(TARGET_COPY_OUT_VENDOR)/etc/cloudengine/ReadMe.txt \
     vendor/tecno/CK9n/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
@@ -2280,7 +2282,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libsensorndkbridge-v31.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v31.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
@@ -3272,7 +3274,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsegmention.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsegmention.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsegmentionPre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsegmentionPre.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libsensorndkbridge-v31.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v31.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
