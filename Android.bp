@@ -47,12 +47,6 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-ims-extension-plugin",
-	owner: "tecno",
-	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
-}
-
-dex_import {
 	name: "mediatek-services",
 	owner: "tecno",
 	jars: ["proprietary/framework/mediatek-services.jar"],
@@ -74,5 +68,12 @@ dex_import {
 	name: "mediatek-telephony-common",
 	owner: "tecno",
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "tecno",
+	jars: ["proprietary/system_ext/framework/mediatek-ims-extension-plugin.jar"],
+	system_ext_specific: true,
 }
 
