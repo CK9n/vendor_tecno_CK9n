@@ -3301,7 +3301,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libz_stable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz_stable.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
