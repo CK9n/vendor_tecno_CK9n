@@ -6,6 +6,36 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/tecno/CK9n
 
 PRODUCT_COPY_FILES += \
+    vendor/tecno/CK9n/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
+    vendor/tecno/CK9n/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
+    vendor/tecno/CK9n/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
+    vendor/tecno/CK9n/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
+    vendor/tecno/CK9n/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
+    vendor/tecno/CK9n/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
+    vendor/tecno/CK9n/proprietary/lib/vendor.mediatek.hardware.mtkpower-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkpower-V1-ndk.so \
+    vendor/tecno/CK9n/proprietary/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
+    vendor/tecno/CK9n/proprietary/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
+    vendor/tecno/CK9n/proprietary/lib/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkpower@1.2.so \
+    vendor/tecno/CK9n/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
+    vendor/tecno/CK9n/proprietary/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
+    vendor/tecno/CK9n/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
+    vendor/tecno/CK9n/proprietary/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
+    vendor/tecno/CK9n/proprietary/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_socketwrapper.so \
+    vendor/tecno/CK9n/proprietary/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
+    vendor/tecno/CK9n/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
+    vendor/tecno/CK9n/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
+    vendor/tecno/CK9n/proprietary/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsignal.so \
+    vendor/tecno/CK9n/proprietary/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsink.so \
+    vendor/tecno/CK9n/proprietary/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsource.so \
+    vendor/tecno/CK9n/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
+    vendor/tecno/CK9n/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
+    vendor/tecno/CK9n/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
+    vendor/tecno/CK9n/proprietary/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so \
+    vendor/tecno/CK9n/proprietary/lib64/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkpower@1.0.so \
+    vendor/tecno/CK9n/proprietary/lib64/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkpower@1.1.so \
+    vendor/tecno/CK9n/proprietary/lib64/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkpower@1.2.so \
+    vendor/tecno/CK9n/proprietary/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
+    vendor/tecno/CK9n/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareapusys.mtk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib/libapuwareapusys_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareapusys_v2.mtk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib/libapuwarehmp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwarehmp.mtk.so \
@@ -3416,3 +3446,16 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta \
     vendor/tecno/CK9n/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/tecno/CK9n/proprietary/vendor/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta
+
+PRODUCT_PACKAGES += \
+    ImsService \
+    mediatek-carrier-config-manager \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-services \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
+    mediatek-ims-extension-plugin
