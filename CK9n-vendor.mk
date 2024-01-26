@@ -144,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek-64b \
-    vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
@@ -997,7 +996,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
-    vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
@@ -1696,9 +1694,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.0.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.1.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/android.hardware.media.c2@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.2.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/tecno/CK9n/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
@@ -2163,8 +2158,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
@@ -2184,20 +2177,15 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl_ndk.mtk.vndk.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_hidl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.0.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.1.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_hidl@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.2.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_vdec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_venc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_common.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_soft_mtk_alacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_alacdec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_soft_mtk_apedec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_apedec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_soft_mtk_imaadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_imaadpcmdec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_mp3dec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_msadpcmdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
@@ -2206,7 +2194,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdts-eagle-shared.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libdtsdsec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtsdsec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
@@ -2273,7 +2260,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnwk_opt_halwrap_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libpnpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpnpmgr.so \
@@ -2289,38 +2275,10 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_enc_common.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_flacdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_amrnbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrnbenc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_amrwbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrwbenc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcenc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_flacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacenc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_gsmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_gsmdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_hevcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_hevcdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mp3dec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_mpeg2dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg2dec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_mpeg4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4dec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_mpeg4enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4enc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_opusdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_opusdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_vpxdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_soft_vpxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxenc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libstfaceunlockppl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstfaceunlockppl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
@@ -2338,7 +2296,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibrator.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libvorbisidec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvorbisidec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_aa.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_dd.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_ha.so \
@@ -2350,12 +2307,9 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
@@ -2445,9 +2399,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.0.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.1.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/android.hardware.media.c2@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.2.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
@@ -3012,7 +2963,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
@@ -3092,20 +3042,15 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl_ndk.mtk.vndk.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_hidl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.0.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.1.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_hidl@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.2.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl_plugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_c2store.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_vdec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_venc.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_common.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_soft_mtk_alacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_alacdec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_soft_mtk_apedec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_apedec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_imaadpcmdec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_mp3dec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_msadpcmdec.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vndk.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_qt_plugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_rs_plugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libcolorenhance_64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcolorenhance_64.so \
@@ -3121,7 +3066,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libdip_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_imem.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_postproc.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdre.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdts-eagle-shared.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libdtsdsec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtsdsec.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdynamiclog.so \
@@ -3309,7 +3253,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsegmentionPre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsegmentionPre.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libsmartcharging.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmartcharging.so \
@@ -3318,7 +3261,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libst_mobile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libst_mobile.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libst_sr_models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libst_sr_models.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libstblur_capture_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstblur_capture_api.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
@@ -3375,8 +3317,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
