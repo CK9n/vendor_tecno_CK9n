@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service.trustonic \
+    vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.6-service \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
@@ -193,6 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
@@ -543,3 +545,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta \
     vendor/tecno/CK9n/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/tecno/CK9n/proprietary/vendor/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta
+
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.2-service-mediatekv2
