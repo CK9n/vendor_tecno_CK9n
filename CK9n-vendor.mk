@@ -42,10 +42,13 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
+    vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service.trustonic \
+    vendor/tecno/CK9n/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.6-service \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.1-service \
+    vendor/tecno/CK9n/proprietary/vendor/bin/kmsetkey_ca.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/kmsetkey_ca.trustonic \
     vendor/tecno/CK9n/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/tecno/CK9n/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/tecno/CK9n/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
@@ -189,11 +192,14 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/dts/off_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/off_speaker48 \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/trustonic.mc_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.mc_kmsetkey_ca.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
@@ -304,12 +310,14 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6893/libGLES_mali.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6893.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.trustonic.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/memtrack.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/mt6893/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6893/vulkan.mali.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
@@ -380,6 +388,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so \
@@ -416,12 +426,14 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/hwcomposer.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6893.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.trustonic.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/memtrack.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.default.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/mt6893/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6893/vulkan.mali.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
@@ -470,6 +482,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
@@ -497,6 +510,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.composer_ext@1.0.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.0.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.1.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.2.so \
