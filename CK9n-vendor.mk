@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service.trustonic \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek-64b \
+    vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
@@ -98,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
     vendor/tecno/CK9n/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/tecno/CK9n/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
+    vendor/tecno/CK9n/proprietary/vendor/bin/nfcstackp-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/nfcstackp-vendor \
     vendor/tecno/CK9n/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/tecno/CK9n/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
     vendor/tecno/CK9n/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
@@ -858,6 +860,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
@@ -865,6 +868,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/hw/init.stnfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.stnfc.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
@@ -1506,6 +1510,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
@@ -1542,6 +1547,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/mt6893/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libgpudataproducer.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/mt6893/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libmtk_drvb.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/mt6893/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libpq_prot.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.st21nfc.st.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/pblcgc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pblcgc02m1_mipi_raw_tuning.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/pblcs5kgd2sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pblcs5kgd2sp_mipi_raw_tuning.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/pblcs5kgnx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pblcs5kgnx_mipi_raw_tuning.so \
@@ -2343,6 +2349,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libportrait_repair_ppl3_ocl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libportrait_repair_ppl3_ocl.so \
@@ -2412,6 +2419,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/mt6893/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libpq_prot.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/mtk000_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk000_mipi_raw_IdxMgr.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/pblcgc02m1_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pblcgc02m1_mipi_raw_IdxMgr.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/pblcgc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pblcgc02m1_mipi_raw_tuning.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/pblcs5kgd2sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pblcs5kgd2sp_mipi_raw_IdxMgr.so \
