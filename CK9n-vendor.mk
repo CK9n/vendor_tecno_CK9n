@@ -2434,6 +2434,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libTranSuperResolution.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTranSuperResolution.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libTranVideoFilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTranVideoFilter.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libTran_Log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTran_Log.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/libTran_mtkPowerAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTran_mtkPowerAPI.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libTransNS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTransNS.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libWaterMarkProc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libWaterMarkProc.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \
