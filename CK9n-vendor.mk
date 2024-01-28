@@ -151,6 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/bin/thermal_intf:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_intf \
     vendor/tecno/CK9n/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     vendor/tecno/CK9n/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
+    vendor/tecno/CK9n/proprietary/vendor/bin/tranlog:$(TARGET_COPY_OUT_VENDOR)/bin/tranlog \
+    vendor/tecno/CK9n/proprietary/vendor/bin/tranlogconfig:$(TARGET_COPY_OUT_VENDOR)/bin/tranlogconfig \
     vendor/tecno/CK9n/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     vendor/tecno/CK9n/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     vendor/tecno/CK9n/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
@@ -944,6 +946,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/init.thermal_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_core.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/init.tranlog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tranlog.rc \
+    vendor/tecno/CK9n/proprietary/vendor/etc/init/init.tranlogconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tranlogconfig.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
@@ -2759,6 +2763,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlcWidevineModularDrm.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libtran_oismgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtran_oismgr.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libtrancam_filelockmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrancam_filelockmgr.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/libtranlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranlog.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libtranssion_bodybeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranssion_bodybeauty.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libtrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrm.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/libttm_rgbw_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libttm_rgbw_fusion.so \
@@ -2891,6 +2896,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.9.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.transsion.hardware.tranlog@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.transsion.hardware.tranlog@1.0.so \
+    vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.transsion.hardware.tranlogconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.transsion.hardware.tranlogconfig@1.0.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
