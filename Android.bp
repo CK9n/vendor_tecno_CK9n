@@ -16,6 +16,17 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "EngineerMode",
+	owner: "tecno",
+	apk: "proprietary/system_ext/app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
 dex_import {
 	name: "mediatek-carrier-config-manager",
 	owner: "tecno",
@@ -188,6 +199,15 @@ prebuilt_etc_xml {
 	name: "manifest_media_c2_V1_1_default",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.mediatek.hardware.tranHwInfo@1.0",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.mediatek.hardware.tranHwInfo@1.0.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
