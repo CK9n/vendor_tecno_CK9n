@@ -16,6 +16,17 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "EngineerMode",
+	owner: "tecno",
+	apk: "proprietary/system_ext/app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
 dex_import {
 	name: "mediatek-carrier-config-manager",
 	owner: "tecno",
