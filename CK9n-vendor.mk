@@ -42,6 +42,11 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/system_ext/lib/libapuwareutils_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareutils_v2.mtk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwarexrp.mtk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib/libapuwarexrp_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwarexrp_v2.mtk.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib/libem_aoltest_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_aoltest_jni.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_audio_jni.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib/libem_bleoffload_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_bleoffload_jni.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_support_jni.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_wifi_jni.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.apusys-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.apusys-V2-ndk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.apusys@2.0.so \
@@ -59,6 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils_v2.mtk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp.mtk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/libapuwarexrp_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp_v2.mtk.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libem_aoltest_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_aoltest_jni.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_audio_jni.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libem_bleoffload_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_bleoffload_jni.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_support_jni.so \
+    vendor/tecno/CK9n/proprietary/system_ext/lib64/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_wifi_jni.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys-V2-ndk.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so \
     vendor/tecno/CK9n/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
