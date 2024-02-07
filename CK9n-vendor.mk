@@ -782,8 +782,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/anc_siq/superiq_model_s5kgd2sp_17201766_front_d1300:$(TARGET_COPY_OUT_VENDOR)/etc/anc_siq/superiq_model_s5kgd2sp_17201766_front_d1300 \
     vendor/tecno/CK9n/proprietary/vendor/etc/anc_siq/superiq_model_s5kgnx_17201768_back_d1300:$(TARGET_COPY_OUT_VENDOR)/etc/anc_siq/superiq_model_s5kgnx_17201768_back_d1300 \
     vendor/tecno/CK9n/proprietary/vendor/etc/anc_siq/superiq_model_s5khm6sxwide_17201765_back_d1300:$(TARGET_COPY_OUT_VENDOR)/etc/anc_siq/superiq_model_s5khm6sxwide_17201765_back_d1300 \
-    vendor/tecno/CK9n/proprietary/vendor/etc/apdb/APDB_MT6885_S01__W2338:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6885_S01__W2338 \
-    vendor/tecno/CK9n/proprietary/vendor/etc/apdb/APDB_MT6885_S01__W2338_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6885_S01__W2338_ENUM \
+    vendor/tecno/CK9n/proprietary/vendor/etc/apdb/APDB_MT6885_S01__W2344:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6885_S01__W2344 \
+    vendor/tecno/CK9n/proprietary/vendor/etc/apdb/APDB_MT6885_S01__W2344_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6885_S01__W2344_ENUM \
     vendor/tecno/CK9n/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
     vendor/tecno/CK9n/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/tecno/CK9n/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
@@ -1475,7 +1475,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
     vendor/tecno/CK9n/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
     vendor/tecno/CK9n/proprietary/vendor/etc/security/cacerts/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c90bc37d.0 \
-    vendor/tecno/CK9n/proprietary/vendor/etc/security/cacerts/cb156124.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb156124.0 \
     vendor/tecno/CK9n/proprietary/vendor/etc/security/cacerts/cb1c3204.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb1c3204.0 \
     vendor/tecno/CK9n/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
     vendor/tecno/CK9n/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \

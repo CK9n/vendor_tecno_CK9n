@@ -129,6 +129,7 @@
 <virtualSpnOverride mccmncspn="334140Redpotencia" name="Redpotencia"/>
 <virtualSpnOverride mccmncspn="334140RedPotencia" name="RedPotencia"/>
 <virtualSpnOverride mccmncspn="334140VALOR" name="VALOR"/>
+<virtualSpnOverride mccmncspn="40177ALTEL 4G" name="ALTEL 4G"/>
 <virtualSpnOverride mccmncspn="40486VodafoneIdea" name="VodafoneIdea"/>
 <virtualSpnOverride mccmncspn="41003Onic" name="Onic"/>
 <virtualSpnOverride mccmncspn="41866Fastlink" name="Fastlink"/>
