@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek \
-    vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
     vendor/tecno/CK9n/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy \
@@ -962,7 +961,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
-    vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/tecno/CK9n/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
@@ -1639,7 +1637,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6893/libGLES_mali.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/gc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_tuning.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
@@ -2319,7 +2316,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
-    vendor/tecno/CK9n/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6893.so \
     vendor/tecno/CK9n/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
